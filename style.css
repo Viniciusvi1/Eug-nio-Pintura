@@ -1,0 +1,90 @@
+
+.col-md-4 p{
+    color: #555;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+h4{
+    font-style: italic;
+    color: black;
+}
+
+p{
+    text-align: center;
+    font-family:'lato' , sans-serif;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+
+
+.footer-widgets-wrapper {
+    padding: 1px; 
+    background-color: #303030;
+    border: 1px solid gray;
+    padding: 8px;
+    color: #303030
+    font-size: 17px;
+}
+
+.footer-widgets-wrapper li{
+    text-align: left;
+    text-decoration: none;
+}
+
+
+.menu-servicos-container ul.menu li {
+    list-style-type: none; /* Remove o marcador de lista */
+    
+}
+
+.menu-servicos-container ul.menu:hover li a {
+    list-style-type: none;
+}
+.menu-servicos-container ul.menu li:before {
+    content: none; /* Remove o conteúdo que geralmente é exibido antes do item da lista */
+    color: azure;
+}
+
+.info-section {
+    float: right; /* Alinha a seção à direita */
+    clear: both; /* Evita que outros elementos flutuem ao redor */
+    margin-top: 20px; /* Adiciona um espaçamento superior para separá-lo do conteúdo acima */
+    color: black
+    
+}
+
+.info-sectiona:hover h2,{
+    color: green; /* Cor do texto ao passar o mouse */
+}
+
+.copyright {
+    float: left; /* Alinha o texto à esquerda */
+}
+
+
+.text-center a {
+    text-decoration: none;
+    color: black; /* Cor padrão do texto */
+}
+
+.text-center a:hover {
+    color: green; /* Cor do texto ao passar o mouse */
+}
+
+
+/* Adicionado para alinhar as imagens lado a lado nas últimas divs .row.justify-content-center */
+@media (max-width: 768px) {
+    .row.justify-content-center:not(:first-child) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .row.justify-content-center:not(:first-child) [class*="col-"] {
+        flex: 0 0 calc(50% - 20px); /* Ajuste conforme necessário */
+        margin: 10px;
+    }
+}
+
+
